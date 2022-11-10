@@ -2,3 +2,27 @@ body {
   background-color: black;
   color: white;
 }
+
+nav {
+  overflow: hidden;
+  background-color: #000033;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+nav a:hover {
+  background-color: #00004d;
+  color: white;
+}
+
+nav a.active {
+  background-color: #000080;
+  color: white;
+}
