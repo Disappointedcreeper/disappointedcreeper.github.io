@@ -4,13 +4,26 @@ body {
   margin: 0;
 }
 
+nav {
+  overflow: hidden;
+  background-color: #000021;
+}
+
 nav a {
-  display: inline-block;
-  background-color: #ffe;
-  border: solid 1px #ffa;
-  border-bottom: 0px;
-  margin-left: 0;
-  margin-right: .2em;
-  margin-top: 0;
-  margin-bottom: 0em;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+nav a:hover {
+  background-color: #00002c;
+  color: white;
+}
+
+nav a.active {
+  background-color: #000036;
+  color: white;
 }
