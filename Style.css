@@ -1,6 +1,7 @@
 body {
-  background-color: black;
+  background-color: #000000;
   color: white;
+  margin: 0;
 }
 
 nav a {
