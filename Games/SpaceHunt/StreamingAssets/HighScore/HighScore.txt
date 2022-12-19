@@ -1,0 +1,5 @@
+HighScoreHolder1 40
+HighScoreHolder2 30
+HighScoreHolder3 20
+HighScoreHolder4 10
+HighScoreHolder5 0
