@@ -1,29 +1,26 @@
 body {
-  background-color: #000000;
+  background-color: #1c1c3b;
   color: white;
   margin: 0;
 }
-
-nav {
-  overflow: hidden;
-  background-color: #000025;
+.title {
+  text-align:center;
+  margin-top: 1em;
+}
+.main {
+  margin-left: 20em;
+  margin-right: 20em;
 }
 
-nav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 1em 1em;
-  text-decoration: none;
-  font-size: 1em;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
-nav a:hover {
-  background-color: #000036;
-  color: white;
-}
-
-nav a.active {
-  background-color: #010140;
-  color: white;
+img {
+  /*Images are scaled to be 4 pixels per pixel*/
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
 }
