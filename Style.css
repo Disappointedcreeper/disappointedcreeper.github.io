@@ -4,10 +4,12 @@ body {
   margin: 0;
 }
 .title {
+  font-family: Helvetica, sans-serif;
   text-align:center;
   margin-top: 1em;
 }
 .main {
+  font-family: Helvetica, sans-serif;
   margin-left: 20em;
   margin-right: 20em;
 }
