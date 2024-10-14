@@ -15,10 +15,10 @@ p {
   text-align: left;
 }
 nav {
-  border-style: solid;
-  border-top-style: none;
-  border-width: 2px;
+  border-bottom-style: solid;
   border-color: #0c0c11;
+  border-width: 2px;
+  border-top: 1px solid transparent;
   background-color: #1b1b33;
 }
 .navlink {
