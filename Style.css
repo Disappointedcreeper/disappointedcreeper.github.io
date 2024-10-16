@@ -39,8 +39,8 @@ nav {
   background-color: #1b1b33;
 }
 .navlink {
-  margin-left: 0em;
-  margin-right: 0em;
+  margin-left: 2em;
+  margin-right: 2em;
   text-align: left;
 }
 a {
@@ -62,6 +62,7 @@ a:visited {
 }
 .sidebar {
   background-color: #262638;
+  min-width: 15vw;
   flex-grow: 2.5;
 }
 .mainflex {
